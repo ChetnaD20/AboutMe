@@ -1,0 +1,61 @@
+.bg {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+    z-index: 1;
+}
+
+.bg::before {
+    content: "";
+    background-image: url("th.jpeg");
+    height: 250vh;
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Ballet', cursive;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.para {
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.map {
+    border-width:5px;
+    border-style:double;
+    border-color:#c5b69e;
+}
+
+.i {
+    text-indent: 50px;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+#me {
+    width: 400px;
+}
